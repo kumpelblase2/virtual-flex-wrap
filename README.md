@@ -35,4 +35,5 @@ You can see an example of how to use under `dev` which you can start using `npm 
 ### Events
 
 `loaded`: Gets emitted when new items are being loaded i.e. displayed. It contains an array with two elements: start index, end index. E.g. : `[8, 12]`
+
 `unloaded`: Gets emitted when items are no longer being displayed and thus unloaded. It contains an array with two elements: start index, end index. E.g. : `[8, 12]`
