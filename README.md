@@ -31,3 +31,8 @@ You can see an example of how to use under `dev` which you can start using `npm 
 `visibilityCheckInterval`: Interval in ms between checks if the user scrolled too far. Default: 100.
 
 `scrollContainer`: Container to use for detecting if the user scrolled outside of the visible area. Default: this component
+
+### Events
+
+`loaded`: Gets emitted when new items are being loaded i.e. displayed. It contains an array with two elements: start index, end index. E.g. : `[8, 12]`
+`unloaded`: Gets emitted when items are no longer being displayed and thus unloaded. It contains an array with two elements: start index, end index. E.g. : `[8, 12]`
